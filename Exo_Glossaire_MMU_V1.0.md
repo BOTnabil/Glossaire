@@ -116,12 +116,14 @@ switch($valeur) {
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ?
+- Un selecteur designe l'élément d'un document afin d'y apporter des modifications
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
 - <.a href = "URL">Lien<./a>
 
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
 - .nomDeClasse {}
+#nomID {}
 
 27.	Définir le responsive design
 - Permet d'adapter l'affichage à toute taille d'écran
