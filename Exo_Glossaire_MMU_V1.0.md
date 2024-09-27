@@ -14,7 +14,7 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
-- Laragon ou MAMP (Mac OS)
+- Laragon ou MAMP (Mac OS) permettent d'obtenir un serveur Apache, necessaire pour un langage comme PHP qui agit coté serveur
 
 2.	Qu’est-ce qu’un algorithme ?  
 - Un algorithme est une suite d'instruction visant à atteindre un certain objectif
@@ -23,7 +23,7 @@
 - Une variable est une valeur pouvant prendre plusieurs forme et pouvant changer au court du code, toujours précédé de $ en PHP
 
 4.	Qu’est-ce que la portée d’une variable ?
-- La portée d'une variable est la zone de code ou l'on peut utiliser celle-ci
+- La portée d'une variable est la zone de code ou celle-ci peut être citée afin d'être utilisé sans pour autant être redéfinie
 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 - Une constante est une valeur mais qui elle ne change jamais
@@ -63,6 +63,7 @@ Cette superglobale contient toutes les variables globales de votre script. Par e
 - $pasDeValeur = null
 - $array = [1,2,3,4,5]
 - $boolean = true
+- $object = new Object
 
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 - Oui Associative et Indexed, les tableaux associatifs possèdent des clés en string, et les indexed possedent des clés en int qui commencent à 0.
@@ -113,7 +114,7 @@ switch($valeur) {
 }
 
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
-- count_chars()
+- strlen()
 
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 - Une session est active quand un utilisateur utilise une application ou un site web, elle permet de garder des informations de l'utilisateur si par exemple il utilise le site web dans une autre page.  On ouvre une session en PHP avec la fonction session_start()
@@ -148,10 +149,10 @@ Joomla!
 - Langage informatique qui nous permettra d'ajouter le contenu principal du site
 
 19.	Définir CSS
-- Langage informatique qui va reprendre le contenu de l'HTML et visuellement l'adapter pour le rendre plus esthétique
+- Langage informatique qui va reprendre le contenu de l'HTML et visuellement l'adapter pour le rendre plus esthétique, gérer la mise en page ainsi que la mise en forme de la vue
 
 20.	Définir Javascript
--langage de programmation qui permet d'ajouter des interactions et des dynamiques sur les pages web.
+-langage de programmation qui permet d'ajouter des interactions sur les pages web.
 
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 - JavaScript Object Notation : format de données textuelles utilisé pour échanger des informations entre serveurs et clients, principalement pour les API web et la configuration de données
@@ -163,7 +164,7 @@ Joomla!
 - Un selecteur designe l'élément d'un document afin d'y apporter des modifications
 
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
-- <.a href = "URL">Lien<./a>
+- <.a href = "URL">Lien<./a> (pour Achor element).
 
 25.	Qu’est-ce qu’une requête AJAX ?
 - Asynchronous JavaScript and XML : permet de charger des données en arrière-plan sans recharger la page web avec des requetes HTTP en JS.
@@ -173,13 +174,13 @@ Joomla!
 #nomID {}
 
 27.	Définir le responsive design
-- Permet d'adapter l'affichage à toute taille d'écran
+- Permet d'adapter l'affichage à toute taille d'écran avec des mediaqueries en mettant en place des breakpoints pour modifier le CSS
 
 28.	Qu’est-ce que le templating ?
 - consiste à utiliser des modèles pour créer du contenu web de manière dynamique, en séparant le design des données
 
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
-- c'est une fonction sans nom
+- c'est une fonction sans nom souvent utilisé comme argument d'une autre fonction
 
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
 - push()
@@ -199,8 +200,8 @@ Joomla!
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
-- UX Design : Optimisation de l'expérience et de l'usabilité.
-- UI Design : Conception visuelle et esthétique de l'interface.
+- UX Design : Optimisation de l'expérience et de l'usabilité. on parle ici de l'experience utilisateur, comme la disposition de la page
+- UI Design : Conception visuelle et esthétique de l'interface. comme la direction artistique du site, les couleurs et les polices d'ecritures
 
 36.	Qu’est-ce qu’un wireframe ? 
 - Un wireframe est un croquis simplifié montrant la structure d'une page web ou d'une application.
