@@ -219,7 +219,8 @@ Joomla!
 - système de lignes et de colonnes utilisées pour organiser et aligner les éléments d'une page web de manière cohérente et structurée.
 
 41.	Qu’est-ce que la notion d’affordance en UX Design ?
-- désigne la capacité d'un élément à suggérer sa fonction à l'utilisateur, par ses caractéristiques visuelles ou son design.
+- désigne la capacité d'un élément à suggérer sa fonction à l'utilisateur, par ses caractéristiques visuelles ou son design. <br>
+    Comme un bouton qui aura un background color
 
 42.	Qu’est-ce qu’un « mobile first design » ?
 - optimise d'abord la conception pour les appareils mobiles avant de l'adapter aux écrans plus grands.
@@ -268,7 +269,8 @@ Joomla!
 - éléments d'une classe accessibles sans créer d'instance, partagés entre toutes les instances.
 
 53.	Définir le polymorphisme en POO
-- permet à des objets de types différents d'être traités de manière uniforme via une interface commune, en utilisant des méthodes avec le même nom mais des implémentations différentes selon la classe.
+- permet à des objets de types différents d'être traités de manière uniforme via une interface commune, en utilisant des méthodes avec le même nom mais des implémentations différentes selon la classe.<br>
+Methode deplacer() qui n'aura pas la meme fonction sur la class Bateau ou Voiture.
 
 54.	Définir une méthode / classe abstraite ?
 - Classe abstraite : Une classe qui ne peut pas être instanciée directement et qui peut contenir des méthodes abstraites que les classes dérivées doivent définir.
@@ -294,8 +296,8 @@ Joomla!
 - Autoload est un mécanisme qui charge automatiquement les classes nécessaires sans inclure manuellement les fichier
 
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-- getters =  accesseurs
-- setters = mutateurs
+- getters =  accesseurs, récupérer la valeur d'une propriété privée
+- setters = mutateurs, modifier la valeur d'une propriété tout en appliquant des validations ou des restrictions.
 
 59.	Qu’est-ce que la sérialisation en PHP ? 
 - convertit un objet ou une variable avec serialize() en chaîne de caractères pour le stockage ou la transmission, puis peut être reconverti en objet avec unserialize().
@@ -318,13 +320,17 @@ Joomla!
 - Contrôleur (Controller) : Gère les interactions de l'utilisateur, met à jour le modèle et rafraîchit la vue.
 
 64.	Quels sont les avantages de l’architecture MVC ?
-
+Organisation : Sépare les données, l'interface et la logique, rendant le code plus clair. <br>
+Maintenance : Facilite la correction des bugs et les mises à jour.<br>
+Réutilisation : On peut changer la vue ou la logique sans toucher aux autres parties.<br>
+Travail en équipe : Les développeurs peuvent travailler sur des parties différentes sans se gêner.<br>
 
 65.	Existe-t-il des variantes à l’architecture MVC ?
 - Oui, MVP, MVVM, MVI
 
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
-- Application Programming Interface : 
+- Application Programming Interface : permet à des applications de communiquer entre elles.<br>
+L'architecture REST est un style d'API qui utilise les requêtes HTTP (GET, POST, etc.) pour échanger des données. Chaque requête est indépendante et contient tout ce dont elle a besoin
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
@@ -349,7 +355,7 @@ c.	Cardinalité : Nombre de relations entre entités
 d.	Clé primaire / clé étrangère : Identifiant unique d'un enregistrement / Référence à la clé primaire d'une autre table
 
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
-- Une relation "Many To Many" devient deux relations "One To Many" avec une table d'association dans le modèle logique.
+- Une relation "Many To Many" devient deux relations "One To Many" avec une table associative dans le modèle logique.
 
 73.	Qu’est-ce qu’une base de données ?
 - c'est un ensemble organisé de données stockées et accessibles pour gestion et recherche.
@@ -468,7 +474,8 @@ h.	Concaténer 2 chaînes de caractères : CONCAT()
 
 100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
 - Hachage : Transforme un mot de passe en une chaîne fixe et sécurisée.
-- Algorithmes : MD5, SHA-256, bcrypt, Argon2.
+- Faibles = rapides mais faciles à casser (MD5 et SHA-1).
+- Forts = plus lents, mais beaucoup plus sûrs (bcrypt, SHA-256, et Argon2).
 
 101.	Qu’est-ce qu’une politique de mots de passe forts ?
 - critères comme longueur, diversité de caractères et complexité pour renforcer la sécurité.
