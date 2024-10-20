@@ -335,7 +335,7 @@ L'architecture REST est un style d'API qui utilise les requêtes HTTP (GET, POST
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
 - Modélisation de données : Création de modèles pour organiser et gérer les données.
-- Méthode Merise : Méthode de modélisation en trois niveaux : MCD, MLD, et MPD.
+- Méthode Merise : Méthode de modélisation en trois niveaux : MCD "conceptuel, MLD "logique", et MPD"physique".
 
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
 a.	Analyse, conception et réalisation XXXXXXXXXXXXXXXX
